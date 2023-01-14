@@ -174,13 +174,15 @@ nav ul li {
     border-radius: 8px;
     transition: ease 0.5s;
 }
+
 .some-fact-item:hover {
-  background-color: #FF900E;
-  color: white !important;
- box-shadow: 30px 25px 38px -1px rgba(255,144,14,0.33);
--webkit-box-shadow: 30px 25px 38px -1px rgba(255,144,14,0.33);
--moz-box-shadow: 30px 25px 38px -1px rgba(255,144,14,0.33);
+    background-color: #FF900E;
+    color: white !important;
+    box-shadow: 30px 25px 38px -1px rgba(255, 144, 14, 0.33);
+    -webkit-box-shadow: 30px 25px 38px -1px rgba(255, 144, 14, 0.33);
+    -moz-box-shadow: 30px 25px 38px -1px rgba(255, 144, 14, 0.33);
 }
+
 .some-fact-item h1 {
     font-weight: 600;
     font-size: 45px;
@@ -196,6 +198,43 @@ nav ul li {
 }
 
 /*? <> Some Facts Section CSS Stayle End  <> */
+
+/*? <> Our Sponspors Section CSS Stayle Start <> */
+.sponsor {
+    margin: 0 240px 130px 240px;
+}
+
+.sponsor-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    padding-bottom: 25px;
+}
+
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.sponsor-logo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+.sponsor-logo img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+}
+
+/*? <> Our Sponspors Section CSS Stayle End  <> */
 
 /** <> Main Section CSS Stayle End  <> */
 
@@ -272,30 +311,48 @@ nav ul li {
     }
 
 
-.feature-content {
-    text-align: center;
-}
-/*? <> feature Section mobile responsive End <> */
+    .feature-content {
+        text-align: center;
+    }
 
-/*? <> Some Facts Section mobile responsive Start  <> */
-.some-fact-content{
-text-align: center;
+    /*? <> feature Section mobile responsive End <> */
+
+    /*? <> Some Facts Section mobile responsive Start  <> */
+    .some-fact-content {
+        text-align: center;
+    }
+
+    .fact-description {
+        padding-bottom: 40px;
+    }
+
+    .some-facts {
+        margin: 70px 0;
+    }
+
+    .fact-title {
+        font-size: 35px;
+    }
+
+    .some-fact-items {
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /*? <> Some Facts Section mobile responsive End <> */
+   
+    /*? <>Our Sponspors Section mobile responsive Start <> */
+   .sponsor {
+    margin: 0 0 130px 0;
 }
-.fact-description {
-    padding-bottom: 40px;
+.sponsor-logo{
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 54px;
+grid-row-gap: 20px;
 }
-.some-facts {
-    margin: 70px 0;
+    /*? <>Our Sponspors Section mobile responsive End <> */
 }
-.fact-title {
-    font-size: 35px;
-}
-.some-fact-items {
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
-  flex-direction: column;
-}
-/*? <> Some Facts Section mobile responsive End <> */
-}
+
 /*! {<<>>} Responsive only for mobile-> End {<<>>} */
