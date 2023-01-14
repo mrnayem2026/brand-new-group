@@ -17,11 +17,12 @@
 
 /** <> Header Section CSS Stayle Start  <> */
 /*! <> Nevbar Section CSS Stayle Start  <> */
-header{
+header {
     background: rgba(255, 144, 14, 0.1);
 }
+
 .nevbar {
-    padding: 50px 230px 116px 230px;
+    padding: 50px 240px 116px 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,29 +50,100 @@ nav ul li {
 }
 
 /*! <> Nevbar Section CSS Stayle End  <> */
+
+/*! <> Banner Section CSS Stayle Start  <> */
+.banner {
+    padding: 0 240px;
+    padding-bottom: 45px;
+}
+
+.banner-content {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+
+.banner-discription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 35px 0 35px 0;
+}
+
+.common-btn {
+    padding: 20px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+/*! <> Banner Section CSS Stayle End <> */
 /** <> Header Section CSS Stayle End  <> */
 
 
 
 /*! {<<>>} Responsive only for mobile-> Start {<<>>} */
 @media screen and (max-width:576px) {
+
     /*! <> Nevbar Section mobile responsive Start  <> */
     .nevbar {
-        padding:31px 0;
+        padding: 31px 0;
         flex-direction: column;
     }
+
     .nevbar-brand {
         font-size: 30px;
     }
+
     nav ul {
         flex-direction: column;
         gap: 20px;
     }
-    nav{
+
+    nav {
         text-align: center;
         margin-top: 20px;
     }
+
     /*! <> Nevbar Section mobile responsive End  <> */
+
+    /*? <> Banner Section mobile responsive Start  <> */
+    .banner {
+        padding: 20px 0;
+        padding-top: 30px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .banner-discription {
+        font-size: 16px;
+        font-style: normal;
+        line-height: 25px;
+        padding: 35px 30px 35px 30px;
+    }
+
+    .banner-img img {
+        width: 100%;
+        padding: 0 15px 0 15px;
+    }
+
+    /*? <> Banner Section mobile responsive End <> */
 }
 
 /*! {<<>>} Responsive only for mobile-> End {<<>>} */
