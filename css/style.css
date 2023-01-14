@@ -93,6 +93,57 @@ nav ul li {
 /*! <> Banner Section CSS Stayle End <> */
 /** <> Header Section CSS Stayle End  <> */
 
+/** <> Main Section CSS Stayle Start <> */
+
+/*? <> feature Section CSS Stayle Start <> */
+.feature {
+    margin: 85px 301px 130px 301px;
+    display: flex;
+    gap: 75px;
+}
+
+.image-gallary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.feature-content {
+    margin: auto 0;
+}
+
+.feature-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.feature-title .black-color {
+    color: #131313;
+}
+
+.feature-title .orrange-color {
+    color: #FF900E;
+}
+
+.feature-description {
+    padding: 25px 0 33px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/*? <> feature Section CSS Stayle End  <> */
+
+/** <> Main Section CSS Stayle End  <> */
+
+.hide {
+    display: none;
+}
 
 
 /*! {<<>>} Responsive only for mobile-> Start {<<>>} */
@@ -144,6 +195,26 @@ nav ul li {
     }
 
     /*? <> Banner Section mobile responsive End <> */
-}
+
+    /*? <> feature Section mobile responsive Start <> */
+    .feature {
+        margin: 31px 0 60px 0;
+        flex-direction: column;
+      }
+    .image-gallary {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+    .image-gallary img {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .feature-content {
+        text-align: center;
+    }
+    /*? <> feature Section mobile responsive End <> */
+
 
 /*! {<<>>} Responsive only for mobile-> End {<<>>} */
