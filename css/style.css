@@ -140,6 +140,87 @@ nav ul li {
 
 /*? <> feature Section CSS Stayle End  <> */
 
+/*? <>  Features you will love & enjoy CSS Stayle Start <> */
+.love-enjoy {
+    margin: 0 240px;
+    display: flex;
+    gap: 146px;
+}
+
+.love-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.love-description {
+    margin: 24px 0 20px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.love-item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 33px;
+    margin-top: 20px;
+}
+
+.love-item-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 12px;
+}
+
+.love-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+.love-img {
+    position: relative;
+}
+
+.year {
+    position: absolute;
+    left: 880px;
+    top: 3104px;
+    width: 342px;
+    height: 200px;
+    padding: 45px 42px;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+.year h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.year p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*? <>  Features you will love & enjoy CSS Stayle End  <> */
+
 /*? <> Some Facts Section CSS Stayle Start <> */
 .some-facts {
     margin: 130px 290px;
@@ -277,6 +358,7 @@ nav ul li {
 
 /** <> Footer Section CSS Stayle Start  <> */
 footer {
+
     margin: 70px 240px 70px 240px;
 }
 
@@ -370,6 +452,30 @@ footer p {
 
     /*? <> feature Section mobile responsive End <> */
 
+    /*? <> Features you will love & enjoy Section mobile responsive Start<> */
+    .love-enjoy {
+        margin: 0 ;
+        margin-top: 95px;
+        flex-direction: column;
+        gap: 50px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    .love-img{
+        width: 100%;
+    }
+    .year {
+        left: 122px;
+        top: 5253px;
+        width: 320px;
+        height: 181px;
+        padding: 32px 24px;
+    }
+    
+
+    /*? <> Features you will love & enjoy Section mobile responsive End <> */
+
+
     /*? <> Some Facts Section mobile responsive Start  <> */
     .some-fact-content {
         text-align: center;
@@ -380,7 +486,7 @@ footer p {
     }
 
     .some-facts {
-        margin: 70px 0;
+        margin: 100px 0;
     }
 
     .fact-title {
@@ -427,11 +533,12 @@ footer p {
     }
 
     /*? <> What is Architecture? mobile responsive End <> */
-    
+
     /*? <> Footer section mobile responsive Start <> */
     footer {
         margin: 25px 0 25px 0;
     }
+
     footer p {
         text-align: center;
         padding: 35px 53px;
@@ -440,6 +547,7 @@ footer p {
         color: #424242;
         line-height: 1.5;
     }
+
     /*? <> Footer section mobile responsive End <> */
 }
 
