@@ -17,8 +17,11 @@
 
 /** <> Header Section CSS Stayle Start  <> */
 /*! <> Nevbar Section CSS Stayle Start  <> */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
 .nevbar {
-    margin: 50px 230px 116px 230px;
+    padding: 50px 230px 116px 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +54,24 @@ nav ul li {
 
 
 /*! {<<>>} Responsive only for mobile-> Start {<<>>} */
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+    /*! <> Nevbar Section mobile responsive Start  <> */
+    .nevbar {
+        padding:31px 0;
+        flex-direction: column;
+    }
+    .nevbar-brand {
+        font-size: 30px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav{
+        text-align: center;
+        margin-top: 20px;
+    }
+    /*! <> Nevbar Section mobile responsive End  <> */
+}
 
 /*! {<<>>} Responsive only for mobile-> End {<<>>} */
