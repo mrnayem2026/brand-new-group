@@ -1,0 +1,56 @@
+/*! {<<>>} Google Fonts imports wear below <Start> {<<>>} */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+/*! {<<>>} Google Fonts imports wear below </> {<<>>} */
+
+/*? <<>> Overall WebSite CSS Effects or Universal Selectot {Start }  <<>> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    border-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*? <<>> Overall WebSite CSS Effects or Universal Selectot {End} <<>> */
+
+/** <> Header Section CSS Stayle Start  <> */
+/*! <> Nevbar Section CSS Stayle Start  <> */
+.nevbar {
+    margin: 50px 230px 116px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nevbar-brand {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    gap: 78px;
+}
+
+nav ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+}
+
+/*! <> Nevbar Section CSS Stayle End  <> */
+/** <> Header Section CSS Stayle End  <> */
+
+
+
+/*! {<<>>} Responsive only for mobile-> Start {<<>>} */
+@media screen and (max-width:576px) {}
+
+/*! {<<>>} Responsive only for mobile-> End {<<>>} */
