@@ -11,6 +11,7 @@
     list-style: none;
     border-style: none;
     font-family: 'Work Sans', sans-serif;
+    font-style: normal;
 }
 
 /*? <<>> Overall WebSite CSS Effects or Universal Selectot {End} <<>> */
@@ -139,6 +140,63 @@ nav ul li {
 
 /*? <> feature Section CSS Stayle End  <> */
 
+/*? <> Some Facts Section CSS Stayle Start <> */
+.some-facts {
+    margin: 130px 290px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 30px 0 100px 0;
+}
+
+.some-fact-items {
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+}
+
+.some-fact-item {
+    width: 241.83px;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: ease 0.5s;
+}
+.some-fact-item:hover {
+  background-color: #FF900E;
+  color: white !important;
+ box-shadow: 30px 25px 38px -1px rgba(255,144,14,0.33);
+-webkit-box-shadow: 30px 25px 38px -1px rgba(255,144,14,0.33);
+-moz-box-shadow: 30px 25px 38px -1px rgba(255,144,14,0.33);
+}
+.some-fact-item h1 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding: 10px 0;
+}
+
+.some-fact-item p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/*? <> Some Facts Section CSS Stayle End  <> */
+
 /** <> Main Section CSS Stayle End  <> */
 
 .hide {
@@ -200,21 +258,44 @@ nav ul li {
     .feature {
         margin: 31px 0 60px 0;
         flex-direction: column;
-      }
+    }
+
     .image-gallary {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 24px;
     }
+
     .image-gallary img {
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
-      }
     }
-    .feature-content {
-        text-align: center;
-    }
-    /*? <> feature Section mobile responsive End <> */
 
 
+.feature-content {
+    text-align: center;
+}
+/*? <> feature Section mobile responsive End <> */
+
+/*? <> Some Facts Section mobile responsive Start  <> */
+.some-fact-content{
+text-align: center;
+}
+.fact-description {
+    padding-bottom: 40px;
+}
+.some-facts {
+    margin: 70px 0;
+}
+.fact-title {
+    font-size: 35px;
+}
+.some-fact-items {
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+}
+/*? <> Some Facts Section mobile responsive End <> */
+}
 /*! {<<>>} Responsive only for mobile-> End {<<>>} */
