@@ -223,18 +223,55 @@ nav ul li {
     line-height: 26px;
     color: #727272;
 }
-.sponsor-logo{
+
+.sponsor-logo {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    
+    grid-template-columns: repeat(5, 1fr);
+
 }
-.sponsor-logo img{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+
+.sponsor-logo img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 
 }
 
 /*? <> Our Sponspors Section CSS Stayle End  <> */
+
+/*? <> What is Architecture? Section CSS Stayle Start  <> */
+.what-arch {
+    padding: 0 240px 50px 240px;
+    background: #FF900E;
+    color: white;
+    display: flex;
+    gap: 60px;
+}
+
+.arch-content {
+    margin: auto 0;
+}
+
+.arch-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+.arch-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.arch-img {
+    padding-top: 170px;
+}
+
+/*? <> What is Architecture? Section CSS Stayle End  <> */
 
 /** <> Main Section CSS Stayle End  <> */
 
@@ -342,17 +379,35 @@ nav ul li {
     }
 
     /*? <> Some Facts Section mobile responsive End <> */
-   
+
     /*? <>Our Sponspors Section mobile responsive Start <> */
-   .sponsor {
-    margin: 0 0 130px 0;
-}
-.sponsor-logo{
-    grid-template-columns: repeat(2,1fr);
-    margin-left: 54px;
-grid-row-gap: 20px;
-}
+    .sponsor {
+        margin: 0 0 130px 0;
+    }
+
+    .sponsor-logo {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 54px;
+        grid-row-gap: 20px;
+    }
+
     /*? <>Our Sponspors Section mobile responsive End <> */
+    
+    /*? <> What is Architecture? mobile responsive End <> */
+    .what-arch {
+        padding: 0 0 50px 0;
+       flex-direction: column-reverse;
+        gap: 30px;
+        padding-left: 21px;
+padding-right: 21px;
+    }
+    .arch-img {
+        padding-top: 35px;
+    }
+    .arch-img img{
+        width: 100%;
+    }
+    /*? <> What is Architecture? mobile responsive End <> */
 }
 
 /*! {<<>>} Responsive only for mobile-> End {<<>>} */
