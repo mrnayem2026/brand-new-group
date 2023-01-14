@@ -268,12 +268,28 @@ nav ul li {
 }
 
 .arch-img {
-    padding-top: 170px;
+    padding-top: 50px;
 }
 
 /*? <> What is Architecture? Section CSS Stayle End  <> */
 
 /** <> Main Section CSS Stayle End  <> */
+
+/** <> Footer Section CSS Stayle Start  <> */
+footer {
+    margin: 70px 240px 70px 240px;
+}
+
+footer p {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 38px 400px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+/** <> Footer Section CSS Stayle End  <> */
 
 .hide {
     display: none;
@@ -392,22 +408,39 @@ nav ul li {
     }
 
     /*? <>Our Sponspors Section mobile responsive End <> */
-    
+
     /*? <> What is Architecture? mobile responsive End <> */
     .what-arch {
         padding: 0 0 50px 0;
-       flex-direction: column-reverse;
+        flex-direction: column-reverse;
         gap: 30px;
         padding-left: 21px;
-padding-right: 21px;
+        padding-right: 21px;
     }
+
     .arch-img {
         padding-top: 35px;
     }
-    .arch-img img{
+
+    .arch-img img {
         width: 100%;
     }
+
     /*? <> What is Architecture? mobile responsive End <> */
+    
+    /*? <> Footer section mobile responsive Start <> */
+    footer {
+        margin: 25px 0 25px 0;
+    }
+    footer p {
+        text-align: center;
+        padding: 35px 53px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #424242;
+        line-height: 1.5;
+    }
+    /*? <> Footer section mobile responsive End <> */
 }
 
 /*! {<<>>} Responsive only for mobile-> End {<<>>} */
