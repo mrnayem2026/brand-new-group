@@ -194,8 +194,8 @@ nav ul li {
 
 .year {
     position: absolute;
-    left: 880px;
-    top: 3104px;
+    left: 867px;
+    top: 3152px;
     width: 342px;
     height: 200px;
     padding: 45px 42px;
@@ -373,13 +373,9 @@ footer p {
 
 /** <> Footer Section CSS Stayle End  <> */
 
-.hide {
-    display: none;
-}
-
 
 /*! {<<>>} Responsive only for mobile-> Start {<<>>} */
-@media screen and (max-width:576px) {
+@media screen and (min-width:320px) and (max-width:576px) {
 
     /*! <> Nevbar Section mobile responsive Start  <> */
     .nevbar {
@@ -454,16 +450,18 @@ footer p {
 
     /*? <> Features you will love & enjoy Section mobile responsive Start<> */
     .love-enjoy {
-        margin: 0 ;
+        margin: 0;
         margin-top: 95px;
         flex-direction: column;
         gap: 50px;
         padding-left: 21px;
         padding-right: 21px;
     }
-    .love-img{
+
+    .love-img {
         width: 100%;
     }
+
     .year {
         left: 122px;
         top: 5253px;
@@ -471,7 +469,7 @@ footer p {
         height: 181px;
         padding: 32px 24px;
     }
-    
+
 
     /*? <> Features you will love & enjoy Section mobile responsive End <> */
 
